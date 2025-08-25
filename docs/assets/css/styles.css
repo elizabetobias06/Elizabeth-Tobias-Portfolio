@@ -1,1 +1,64 @@
+body {
+  display: grid;              /* needed to use place-items */
+  place-items: center;        /* centers content in body */
+  background: #f5faff;
+  color: #222;                /* "lightblack" is not valid, use a hex or rgb */
+  font-size: 25px; 
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Main name */
+#Name {
+  text-align: center;
+  font-weight: bold;
+  font-size: 5em;
+  color: #005bb5;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Subheading */
+.heading {
+  text-align: center;
+  font-size: 1.2em;
+  color: #339dff;
+}
+
+/* Name title */
+#Nametitle {
+  color: #007aff;
+}
+
+/* Horizontal rule (better to target <hr>, not #hr) */
+hr {
+  border: none;
+  border-top: 2px solid #007aff;
+  margin: 1em auto;
+  width: 80%;
+}
+
+/* Box styling */
+.box {
+  width: 700px;
+  height: 25px;
+  background-color: #e6f2ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Links inside the box */
+.box a {
+  font-size: 20px;
+  margin: 0 10px;             /* spacing between links */
+  color: #007aff;
+  letter-spacing: 3px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+
+.box a:hover {
+  color: #005bb5;             /* darker blue on hover */
+}
 
