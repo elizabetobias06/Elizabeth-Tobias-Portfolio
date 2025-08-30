@@ -66,9 +66,13 @@ hr {
 
 /* Link at color on the page */
 a {
-  color: black;
+  color: #e6f2ff;
 }
 .box a:hover {
-  color: #005bb5;             /* darker blue on hover */
+  color: #339dff;             /* darker blue on hover */
 }
+a:visited { 
+  color: #007aff;
+}
+
 
