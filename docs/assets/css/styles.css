@@ -5,6 +5,9 @@ body {
   color: #222;                /* "lightblack" is not valid, use a hex or rgb */
   font-size: 25px; 
   font-family: 'Poppins', sans-serif;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: left;
 }
 
 /* Main name */
